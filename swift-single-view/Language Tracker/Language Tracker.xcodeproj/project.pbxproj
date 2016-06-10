@@ -12,6 +12,8 @@
 		8FAF89BB1D08C29D00DB04C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FAF89B91D08C29D00DB04C6 /* Main.storyboard */; };
 		8FAF89BD1D08C29D00DB04C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FAF89BC1D08C29D00DB04C6 /* Assets.xcassets */; };
 		8FAF89C01D08C29D00DB04C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FAF89BE1D08C29D00DB04C6 /* LaunchScreen.storyboard */; };
+		8FAF89C91D08C65100DB04C6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAF89C71D08C65100DB04C6 /* TableViewController.swift */; };
+		8FAF89CA1D08C65100DB04C6 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FAF89C81D08C65100DB04C6 /* TableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8FAF89BC1D08C29D00DB04C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FAF89BF1D08C29D00DB04C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FAF89C11D08C29D00DB04C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FAF89C71D08C65100DB04C6 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		8FAF89C81D08C65100DB04C6 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				8FAF89BC1D08C29D00DB04C6 /* Assets.xcassets */,
 				8FAF89BE1D08C29D00DB04C6 /* LaunchScreen.storyboard */,
 				8FAF89C11D08C29D00DB04C6 /* Info.plist */,
+				8FAF89C71D08C65100DB04C6 /* TableViewController.swift */,
+				8FAF89C81D08C65100DB04C6 /* TableViewController.xib */,
 			);
 			path = "Language Tracker";
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 				8FAF89C01D08C29D00DB04C6 /* LaunchScreen.storyboard in Resources */,
 				8FAF89BD1D08C29D00DB04C6 /* Assets.xcassets in Resources */,
 				8FAF89BB1D08C29D00DB04C6 /* Main.storyboard in Resources */,
+				8FAF89CA1D08C65100DB04C6 /* TableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FAF89B81D08C29D00DB04C6 /* ViewController.swift in Sources */,
+				8FAF89C91D08C65100DB04C6 /* TableViewController.swift in Sources */,
 				8FAF89B61D08C29D00DB04C6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
